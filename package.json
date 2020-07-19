@@ -1,0 +1,11 @@
+{
+    "name": "protractor-functional-test",
+    "version": "0.0.1",
+    "scripts": {
+        "start":"webdriver-manager update & webdriver-manager start",
+        "test": "protractor config/config.js"
+    },
+    "dependencies": {
+        "protractor": "7.0.0"
+    }
+}
